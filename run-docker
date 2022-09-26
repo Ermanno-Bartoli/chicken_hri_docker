@@ -1,2 +1,2 @@
 xhost +local:root
-docker run -it -v /home/ermanno/Documents/KTH_WORK/pepper_docker/pepper_pkg:/home/user/ws/src/pepper_pkg --privileged --network host --rm --name pepper_container docker_pepper
+docker run -it -v /PATH_TO_chicken_hri_docker/pepper_pkg:/home/user/ws/src/pepper_pkg --privileged --network host --rm --name pepper_container docker_pepper
